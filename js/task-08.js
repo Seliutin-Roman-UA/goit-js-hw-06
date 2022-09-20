@@ -10,6 +10,7 @@ form.addEventListener("submit", (event) => {
     // event.currentTarget.reset();
     form.reset();
     email.focus();
+    return;
   }
 
   const autorization = {
