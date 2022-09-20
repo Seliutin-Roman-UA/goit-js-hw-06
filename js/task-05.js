@@ -3,4 +3,4 @@ document
     .querySelector("#name-input")
     .addEventListener(
         "input",
-        (event) => {newName.textContent = event.currentTarget.value});
+        (event) => {newName.textContent = event.currentTarget.value || 'Anonymous';});

@@ -15,4 +15,4 @@ const elemetsHTML = ingredients.map((el => {
 }))
 
 
-list.after(...elemetsHTML);
+list.append(...elemetsHTML);
